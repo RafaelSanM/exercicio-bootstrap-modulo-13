@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Módulo 13 - Bootstrap</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container">
+    
+    <div id="carouselExampleControls" class="carousel slide mb-5" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div data-bs-interval="5000" class="carousel-item active">
+                <img src="https://cdn.pixabay.com/photo/2016/04/03/02/28/rio-1303951_1280.jpg" class="d-block w-100" alt="Imagem 1 - Cristo Redentor RJ">
+            </div>
+            <div data-bs-interval="5000" class="carousel-item">
+                <img src="https://cdn.pixabay.com/photo/2016/11/20/08/34/buildings-1842205_1280.jpg" class="d-block w-100" alt="Imagem 2 - Cidade de São Paulo">
+            </div>
+            <div data-bs-interval="5000" class="carousel-item">
+                <img src="https://cdn.pixabay.com/photo/2017/05/23/18/46/santa-catarina-2338119_1280.jpg" class="d-block w-100" alt="Imagem 3 - Imagem praia em Santa Catarina">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+        </button>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col">
+            <div class="card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Cidade_Maravilhosa.jpg/288px-Cidade_Maravilhosa.jpg" class="card-img-top" alt="Card 1 - vista aérea do Rio de Janeiro">
+                <div class="card-body">
+                    <h5 class="card-title">Rio de Janeiro - RJ</h5>
+                    <p class="card-text">O Rio de Janeiro é uma grande cidade brasileira à beira-mar, famosa pelas praias de Copacabana e Ipanema, pela estátua de 38 metros de altura do Cristo Redentor, no topo do Corcovado, e pelo Pão de Açúcar, um pico de granito com teleféricos até seu cume. A cidade também é conhecida pelas grandes favelas. O empolgante Carnaval, com carros alegóricos, fantasias extravagantes e sambistas, é considerado o maior do mundo.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="https://revistaazul.voeazul.com.br/wp-content/uploads/2023/03/sao-paulo-conheca-mais-a-fundo-a-cidade-que-nunca-dorme.jpeg" class="card-img-top" alt="Card 2 - vista aérea de São Paulo">
+                <div class="card-body">
+                    <h5 class="card-title">São Paulo - SP</h5>
+                    <p class="card-text">São Paulo, centro financeiro do Brasil, está entre as cidades mais populosas do mundo, com diversas instituições culturais e uma rica tradição arquitetônica. Há prédios simbólicos como a catedral neogótica, o Edifício Martinelli, um arranha-céu inaugurado em 1929, e o Edifício Copan, com suas linhas curvas projetadas pelo arquiteto modernista Oscar Niemeyer. A igreja em estilo colonial do Pátio do Colégio marca o local onde os padres jesuítas fundaram a cidade em 1554.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="https://www.cnnbrasil.com.br/viagemegastronomia/wp-content/uploads/sites/5/2021/10/eduardo-zmievski-IhknpZPSKnw-unsplash.jpg?w=1024" class="card-img-top" alt="Card 3 - Vista aérea Florianópolis">
+                <div class="card-body">
+                    <h5 class="card-title">Florianópolis - SC</h5>
+                    <p class="card-text">Florianópolis, a capital do estado de Santa Catarina no sul do Brasil, é maioritariamente constituída pela Ilha de Santa Catarina, com 54 km de comprimento. É famosa pelas suas praias, incluindo estâncias turísticas populares como a Praia dos Ingleses na extremidade norte da ilha. A sua Lagoa da Conceição, uma lagoa de água salgada, é popular para a prática de windsurf e para excursões de barco. A Ponte Pedro Ivo Campos faz a ligação entre a ilha e a zona comercial continental.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

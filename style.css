@@ -1,0 +1,8 @@
+.card-img-top {
+    height: 200px; 
+    object-fit: cover; 
+}
+
+#carouselExampleControls {
+    margin-top: 20px; /* Margem na parte inferior */
+}
